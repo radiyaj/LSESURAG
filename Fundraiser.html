@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<head>
+  <!--JQuery Online Host-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<style>
+      .totaliser {
+        position: relative;
+      }
+      h1 {
+        font-family: helvetica;
+        font-size: 34px;
+        color: #FFDD05;
+        position: relative;
+        top: -855px;
+        left: 150px;
+      }
+      h2 {
+        font-family: helvetica;
+        font-size: 20px;
+        color: #FFDD05;
+        text-align: right;
+        position: relative;
+        top: -865px;
+        left: -920px;
+        line-height: 48px;
+      }
+  		.pot {
+        height: 410px;
+        width: 80px;
+        background-color: #e5e5e5;
+        border-radius: 10px 10px 0px 0px;
+        z-index: 1;
+        position: relative;
+        top: 20px;
+        left: 10px;
+      }
+       .filler {
+        background-color: orange;
+        width: 70px;
+        height: 0px;
+        border-radius: 10px 10px 0px 0px;
+        position: relative;
+        z-index: 1;
+        top: -1385px;
+        left: 15px;
+      }
+      .board {
+        background-color: #5B2D90;
+        height: 420px;
+        width: 300px;
+        border-radius: 10px;
+        z-index: -1;
+        position: relative;
+        top: -400px;
+      }
+      .marker1 {
+        background-color: #FFDD05;
+        height: 2px;
+        width: 280px;
+        position: relative;
+        top: -440px;
+        left: 10px;
+      }
+      .marker2 {
+        background-color: #FFDD05;
+        height: 2px;
+        width: 280px;
+        position: relative;
+        top: -490px;
+        left: 10px;
+      }
+      .marker3 {
+        background-color: #FFDD05;
+        height: 2px;
+        width: 280px;
+        position: relative;
+        top: -540px;
+        left: 10px;
+      }
+      .marker4 {
+        background-color: #FFDD05;
+        height: 2px;
+        width: 280px;
+        position: relative;
+        top: -590px;
+        left: 10px;
+      }
+      .marker5{
+        background-color: #FFDD05;
+        height: 2px;
+        width: 280px;
+        position: relative;
+        top: -640px;
+        left: 10px;
+      }
+      .marker6 {
+        background-color: #FFDD05;
+        height: 2px;
+        width: 280px;
+        position: relative;
+        top: -690px;
+        left: 10px;
+      }
+      .marker7 {
+        background-color: #FFDD05;
+        height: 2px;
+        width: 280px;
+        position: relative;
+        top: -740px;
+        left: 10px;
+      }
+      .marker8 {
+        background-color: #FFDD05;
+        height: 2px;
+        width: 280px;
+        position: relative;
+        top: -790px;
+        left: 10px;
+      }
+      img {
+        width: 25%;
+        height: 25%;
+        position: relative;
+        top: -1250px;
+        left: 310px;
+      }
+	</style>
+
+</head>
+
+<body>
+  <div class="totaliser">
+  	<div class="pot"></div>
+    <div class="board"></div>
+    <div class="marker1"></div>
+    <div class="marker2"></div>
+    <div class="marker3"></div>
+    <div class="marker4"></div>
+    <div class="marker5"></div>
+    <div class="marker6"></div>
+    <div class="marker7"></div>
+    <div class="marker8"></div>
+    <h1>£200,000</h1>
+    <h2>£175,000<br>£150,000<br>£125,000<br>£100,000<br>£75,000<br>£50,000<br>£25,000</h2>
+    <img src="beaver_shouter.jpg">
+    <div class="filler"></div>
+  </div>
+
+    <script>
+      $(document).ready(function() {
+        $(".filler").animate({height: "100px"}, "slow");
+      });
+    </script>
+</body>
